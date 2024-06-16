@@ -106,7 +106,7 @@ class _MyButtonItemsState extends State<MyButtonItems> with SingleTickerProvider
                 colors: [
                   Colors.purple,
                   widget.color,
-                  Colors.blueAccent,
+                  Colors.lightBlueAccent.shade400,
                 ],
                 stops: [0.0, controller.value, 1.0],
               ),
